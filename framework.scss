@@ -259,7 +259,10 @@ form > input{
         color: $amarillo;
     }
 }
-
+// *justify-content
+.sa{justify-content: space-around;}
+.se{justify-content: space-evenly;}
+.sb{justify-content: space-between;}
 // *HELPERS* 
 .m-none {margin: 0 !important;}
 .mt-none {margin-top: 0 !important;}

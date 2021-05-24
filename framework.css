@@ -626,6 +626,23 @@ form > input:focus {
   color: #FDFF00;
 }
 
+.sa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.se {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .m-none {
   margin: 0 !important;
 }
